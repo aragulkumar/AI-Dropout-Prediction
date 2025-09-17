@@ -1,0 +1,40 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+*.py[cod]
+*.sqlite3
+*.log
+*.pot
+
+# Environment
+env/
+venv/
+.env
+
+# Django
+staticfiles/
+media/
+db.sqlite3
+*.mo
+
+# VSCode / IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+*.swp
+tmp/
+*.pid
+
+# systemd service files (optional, if you want to ignore locally created ones)
+*.service
