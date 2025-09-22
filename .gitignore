@@ -1,40 +1,73 @@
+# ======================
+# Flutter
+# ======================
+# Build outputs
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+.melos_tool/
+
+# iOS
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/.symlinks/
+ios/Pods/
+ios/Podfile.lock
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Android
+.android/
+gradle-wrapper.jar
+local.properties
+GeneratedPluginRegistrant.java
+*.keystore
+*.jks
+
+# Web
+web/.dart_tool/
+
+# IDE
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+*.swp
+
+# ======================
+# Django
+# ======================
 # Python
 *.pyc
 *.pyo
-__pycache__/
 *.pyd
-*.py[cod]
-*.sqlite3
+__pycache__/
+*.so
+
+# Django / Python env
+db.sqlite3
 *.log
+.env
+venv/
+env/
+ENV/
 *.pot
 
-# Environment
-env/
-venv/
-.env
-
-# Django
+# Django specific
 staticfiles/
 media/
-db.sqlite3
-*.mo
+*.py[cod]
+*.sqlite3
 
-# VSCode / IDE
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
+# Migrations (optional, if you want to track them remove this)
+*/migrations/*.py
+!*/migrations/__init__.py
 
-# OS files
+# ======================
+# General
+# ======================
 .DS_Store
 Thumbs.db
-
-# Docker
-*.dockerignore
-docker-compose.override.yml
-*.swp
-tmp/
-*.pid
-
-# systemd service files (optional, if you want to ignore locally created ones)
-*.service
